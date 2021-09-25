@@ -1,0 +1,4 @@
+O emulador de terminal ou simplesmente o terminal é parte integrante de qualquer distribuição Linux.
+
+Quando você altera o tema de sua distribuição, muitas vezes o terminal também recebe uma reforma automática. Mas isso não significa que você não possa personalizar ainda mais o terminal.
+
