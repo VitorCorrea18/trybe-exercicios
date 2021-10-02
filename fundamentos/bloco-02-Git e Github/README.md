@@ -1,0 +1,1 @@
+Este bloco me levou ao maravilhoso mundo do git e do github. Adorei e nunca pensei que existisse algo assim, ainda não entendo como outros cursos de programação não ensinam isso primeiro antes de qualquer outra coisa. Achei fantastico e estou adorando o curso até agora.
