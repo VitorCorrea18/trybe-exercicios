@@ -1,0 +1,17 @@
+.cabeçario {
+    text-align: center;
+}
+
+li:hover {
+    background-color: red;
+
+}
+
+li:active {
+    font-family: cursive;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
