@@ -10,9 +10,10 @@
         .cabecalho {
             
             border-style: unset;
+            border-radius: 10px;
             background-color: #344055;
             width: 1100px;
-            height: 500px;
+            height: 400px;
             padding: 5px;
         }
         .cabecalho h1 {
@@ -21,21 +22,24 @@
             font-style: oblique;
             font-size: 45px;
         }
-        /*preciso ajustar a imagem e menu no centro*/
-        #foto-header {
+        
+        .foto-header2 {
+            position: absolute;
+            left: 550px;
+            top: 100px;
+            border-radius: 400px;
+            width: 350px;
+            height: 300px;
             
-            border-radius: 450px;
-            width: 400px;
-            float: left;
-            
-
         }
 
         .menu-header li {
-            
             list-style: none;
-            display: inline;
+            border-width: 5px;
+            display: inline-block;
             padding: 15px 30px;
+            inline-size: 100px;
+            
             background-color: #F77F00;
             text-decoration: none;
             color: white;
@@ -43,8 +47,45 @@
         }
 
         .artigo {
+            padding: 20px;
             width: 700px;
             background-color: wheat;
+            border-radius: 15px;
+        }
+        #foto1 {
+            border-radius: 20px;
+        }
+        #foto2 {
+            width: 400px;
+            border-radius: 50px;
+        }
+        #foto4 {
+            position: absolute;
+            top: 70px;
+            width: 200px;
+            border-radius: 200px;
+        }
+        .fontes {
+            top: 1800px;
+            width: 720px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: gray;
+        }
+        .aside {
+            border-radius: 10px;
+            position: absolute;
+            height: 300px;
+            width: 300px;
+            padding: 5px;
+            background-color: orange;
+            position: absolute;
+            display: block;
+            left: 800px;
+            top: 500px;
+        }
+        .rodape p {
+            text-align: center;
         }
 
 
@@ -54,7 +95,7 @@
     <!--insira os elementos aqui-->
     <header class="cabecalho">
         <h1>Soco a 80km/h: Conheça o Stomatopoda</h1>
-        <img id="foto-header" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Odontodactylus_scyllarus1.jpg/250px-Odontodactylus_scyllarus1.jpg" alt="imagem do bixo">
+        <img class="foto-header2" src="foto4.jpg" alt="Foto do bixo">
         <nav class="menu-header">
         <ul>
             <li>Página Inicial</li>
@@ -124,23 +165,24 @@
 
        </article>
 
-       <table class="fontes">
-           <h3>Fontes e referencias</h3>
-           <ul>
-               <li>Wikipédia</li>
-               <li>The OatMeal</li>
-               <li>National Geographic</li>
-           </ul>
-       </table>
+    </main>
 
-       <aside class="aside">
-            <p>Você pode ver o Stomatopoda em acão, neste 
-                <a href="https://www.youtube.com/watch?v=E0Li1k5hGBE" tagert="_blank">video</a>
-            <img src="foto4.jpg" alt="Foto do Stomatopoda">
+    <section class="fontes">
+        <h3>Fontes e referencias</h3>
+        <ul>
+            <li>Wikipédia</li>
+            <li>The OatMeal</li>
+            <li>National Geographic</li>
+        </ul>
+    </section>
+
+    <aside class="aside">
+        <p>Você pode ver o Stomatopoda em acão, neste 
+            <a href="https://www.youtube.com/watch?v=E0Li1k5hGBE" tagert="_blank">video</a>
+        <img id="foto4" src="foto4.jpg" alt="Foto do Stomatopoda">
         </p>
 
-       </aside>
-    </main>
+    </aside>
 
     <footer class="rodape">
         <p>
