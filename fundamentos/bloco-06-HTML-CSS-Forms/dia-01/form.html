@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Exercicio dia 6.1</title>
+</head>
+
+<body>
+  <form method="get" class="curriculum">
+    <fieldset class="personal-info">
+      <legend class="fieldset-title">Dados Pessoais</legend>
+      <div class="line-content">
+        <label for="full-name">Nome</label>
+        <input type="text" class="textbox" name="full-name" id="full-name" required>
+      </div>
+      <div class="line-content">
+        <label for="email">E-mail</label>
+        <input type="text" class="textbox" name="email" id="email" required>
+      </div>
+      <div class="line-content">
+        <label for="cpf">CPF</label>
+        <input type="text" class="textbox" name="cpf" id="cpf" required>
+      </div>
+      <div class="line-content">
+        <label for="adress">Endereço</label>
+        <input type="text" class="textbox" name="adress" id="adress" required>
+      </div>
+      <div class="line-content">
+        <label for="city">Cidade</label>
+        <input type="text" class="textbox" name="city" id="city-name" required>
+      </div>
+      <div class="line-content">
+        <label for="state">Estado</label>
+        <select name="state" id="state">
+          <option></option>
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espirito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PA">Pará</option>
+          <option value="PB">Paraíba</option>
+          <option value="PR">Paraná</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="RN">Rio Grande Do Norte</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="RO">Rondônia</option>
+          <option value="PR">Roraima</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="SP">São Paulo</option>
+          <option value="SE">Sergipe</option>
+          <option value="TO">Tocantins</option>
+        </select>
+      </div>
+      <div class="line-content">
+        <fieldset class="legacy-form-row">
+          <legend>Tipo de Residencia</legend>
+          <div class="line-content">
+            <input type="radio" name="apt-house" id="house" value='palestra' required>
+            <label for="house">Casa</label>
+            <input type="radio" name="apt-house" id="apt" value="workshop" required>
+            <label for="apt">Apartamento</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <textarea></textarea>
+        </fieldset>
+  </form>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+body {
+    background-color: #003459;
+}
+
+.curriculum {
+    width: 60%;
+    margin: 50px auto 30px auto;
+    border-radius: 3px;
+    border: black solid 1px;
+    padding: 50px;
+    background-color: #00A7E1;
+}
+
+.personal-info {
+    background-color: #007ea7;
+    border: 1px solid rgb(214, 217, 220);
+    border-radius: 3px;
+}
+
+label {
+    margin: 5px;
+}
+
+.fieldset-title {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.line-content {
+    margin: 20px;
+    border: 0 none;
+    margin-bottom: 10px;
+}
+
+.textbox {
+    border: 1px solid rgb(214, 217, 220);
+    border-radius: 3px;
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.legacy-form-row {
+    padding: 2px;
+    width: 100%;
+}
+
