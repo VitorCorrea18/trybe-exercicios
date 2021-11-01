@@ -15,23 +15,23 @@
       <legend class="fieldset-title">Dados Pessoais</legend>
       <div class="line-content">
         <label for="full-name">Nome</label>
-        <input type="text" class="textbox" name="full-name" id="full-name" required>
+        <input type="text" class="textbox" name="full-name" id="full-name" max="40" required>
       </div>
       <div class="line-content">
         <label for="email">E-mail</label>
-        <input type="text" class="textbox" name="email" id="email" required>
+        <input type="text" class="textbox" name="email" id="email" max="50" required>
       </div>
       <div class="line-content">
         <label for="cpf">CPF</label>
-        <input type="text" class="textbox" name="cpf" id="cpf" required>
+        <input type="text" class="textbox" name="cpf" id="cpf" max="11" required>
       </div>
       <div class="line-content">
         <label for="adress">Endereço</label>
-        <input type="text" class="textbox" name="adress" id="adress" required>
+        <input type="text" class="textbox" name="adress" id="adress" max="200" required>
       </div>
       <div class="line-content">
         <label for="city">Cidade</label>
-        <input type="text" class="textbox" name="city" id="city-name" required>
+        <input type="text" class="textbox" name="city" id="city-name" max="28" required>
       </div>
       <div class="line-content">
         <label for="state">Estado</label>
@@ -76,9 +76,27 @@
             <label for="apt">Apartamento</label>
           </div>
         </fieldset>
-        <fieldset>
-          <textarea></textarea>
-        </fieldset>
+    </fieldset>
+    <fieldset class="personal-info">
+      <legend class="fieldset-title">Dados do seu ultimo emprego</legend>
+      <div class="line-content">
+        <label for="las-job">Resumo do currículo</label>
+        <textarea name="last-job" id="last-job" class="textbox" cols="50" rows="10" maxlength="1000" placeholder="Escreva um resumo do seu curriculum." required></textarea>
+      </div>
+      <div class="line-content">
+        <label for="last-position">Cargo</label>
+        <input type="text" class="textbox" id="last-position" name="last-position" max="40" required>
+      </div>
+      <div class="line-content">
+        <label for="position-description">Descrição do cargo</label>
+        <textarea name="position-description" id="position-description" class="textbox" maxlength="500" cols="20" rows="4" placeholder="Escreva uma curta descrição do seu ultimo cargo."></textarea>
+      </div>
+      <div class="line-content">
+        <input type="date" >
+      </div>
+    </fieldset>
+    <button id="btn-save" class="btn">Salvar</button>
+    <button id="btn-clear" class="btn">Limpar</button>
   </form>
 
 </body>
