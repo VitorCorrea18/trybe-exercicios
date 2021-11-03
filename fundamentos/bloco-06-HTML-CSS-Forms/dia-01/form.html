@@ -92,12 +92,18 @@
         <textarea name="position-description" id="position-description" class="textbox" maxlength="500" cols="20" rows="4" placeholder="Escreva uma curta descrição do seu ultimo cargo."></textarea>
       </div>
       <div class="line-content">
-        <input type="date" >
+        <label for="admission">Data de admição</label>
+        <input type="date" name="admission" id="admission" required>
+        <label for="sign-off">Data de demissão</label>
+        <input type="date" name="sign-off" id="sign-off" required>
       </div>
     </fieldset>
-    <button id="btn-save" class="btn">Salvar</button>
-    <button id="btn-clear" class="btn">Limpar</button>
+    <button type="submit" id="btn-save" class="btn">Salvar</button>
+    <button type="button" id="btn-clear" class="btn">Limpar</button>
   </form>
+  <div id="displayed-info">
+    <p>Resultado</p>
+  </div>
 
 </body>
 

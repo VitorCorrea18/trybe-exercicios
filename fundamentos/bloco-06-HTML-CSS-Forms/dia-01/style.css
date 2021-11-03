@@ -48,3 +48,9 @@ label {
     width: 100%;
 }
 
+#displayed-info {
+    text-align: center;
+    background-color: white;
+    width: 60%;
+    margin: auto;
+}
