@@ -1,0 +1,43 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-size: 1.3rem;
+    margin: 40px;
+}
+h1 {
+    font-size: 2rem;
+}
+h2 {
+
+}
+
+img {
+    max-width: 100%;
+}
+
+figure {
+    background: black;
+    border-radius: 5px;
+    color: white;
+    margin: 17px;
+    padding: 10px;
+    text-align: center;
+  }
+
+@media screen and (min-width: 794px) {
+    body {
+        margin: 25px 6%;
+    }
+
+    figure {
+        float: left;
+        width: 45%;
+    }
+
+}
