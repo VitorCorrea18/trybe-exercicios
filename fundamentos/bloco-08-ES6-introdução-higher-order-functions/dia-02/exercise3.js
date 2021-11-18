@@ -10,6 +10,8 @@ const books = require('./books');
     name: 'As Crônicas de Gelo e Fogo',
     releaseYear: 1991,
   }; */
+
+ /*  3 - Encontre o primeiro livro cujo nome possui 26 caracteres. */
   
   function getNamedBook() {
       let namedBook;

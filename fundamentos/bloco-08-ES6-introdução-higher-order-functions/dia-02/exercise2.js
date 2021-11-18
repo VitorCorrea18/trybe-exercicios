@@ -1,5 +1,7 @@
 const books = require('./books');
 
+/* 2 - Retorne o nome do livro de menor nome. */
+
 function smallerName() {
     let nameBook;
     books.forEach((book) => {
