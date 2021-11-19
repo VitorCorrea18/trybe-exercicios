@@ -32,4 +32,8 @@ const expectedResult = [
   
   function oldBooksOrdered() {
     // escreva seu código aqui
+    const result = books.filter((book) => 2020 - book.releaseYear > 60);
+    return result;
   }
+
+  console.table(oldBooksOrdered());
