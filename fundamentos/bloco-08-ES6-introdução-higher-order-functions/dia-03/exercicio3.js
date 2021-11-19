@@ -36,4 +36,8 @@ const expectedResult = [
   
   function fantasyOrScienceFiction() {
     // escreva seu código aqui
+    const result = books.filter((book) => book.genre === 'Ficção Científica' || book.genre === 'Fantasia');
+    return result;
   }
+
+  console.table(fantasyOrScienceFiction());
