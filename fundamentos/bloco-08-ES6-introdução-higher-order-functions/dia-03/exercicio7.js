@@ -1,4 +1,4 @@
-import books from '/books.js';
+const books = require('./books');
 
 
 

@@ -1,4 +1,4 @@
-import books from '/books.js';
+const books = require('./books');
 
 /* 1 - Crie um array com strings no formato NOME_DO_LIVRO - GÊNERO_DO_LIVRO - NOME_DA_PESSOA_AUTORA
 Dica: Use a função map */
@@ -15,4 +15,8 @@ const expectedResult = [
   
   function formatedBookNames() {
     // escreva seu código aqui
-  }
+    const result = books.map((book) => `${book.name} - ${book.genre} - ${book.author.name}`);
+    return result;
+}
+
+console.table(formatedBookNames());
